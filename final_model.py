@@ -115,8 +115,8 @@ print("Test accuracy:", test_accuracy)
 
 
 # Save the model
-improved_model.model.save('my_model.h5')
+improved_model.model.save('saved_model')
 # Load the saved model
-loaded_model = load_model('my_model.h5')
+loaded_model = load_model('ArtificialMinds.h5')
 # Print the summary of the loaded model
 loaded_model.summary()
