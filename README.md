@@ -32,8 +32,10 @@ After training and evaluating the model, the code saves the model to a file and 
 
 ## Instructions to run
 Make sure to replace the Google Drive path to CSV data file with the path where your data file is located.
-````path = '/content/drive/MyDrive/YourPath/YourData.csv'
-data = pd.read_csv(path)````
+````
+path = '/content/drive/MyDrive/YourPath/YourData.csv'
+data = pd.read_csv(path)
+````
 
 **Note**: This code runs in a Google Colab environment and requires Google Drive for accessing the data. Make sure you have access to Google Colab and Google Drive. If you want to run the code in a different environment or use a different data source, you may need to modify the data loading and processing code.
 
